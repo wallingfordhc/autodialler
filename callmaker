@@ -5,11 +5,11 @@ use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/user/account
 $sid = "AC48cedd55d36cd749659ba641557c3414";
-$token = "your_auth_token";
+$token = "e2fa841ec2ea68ebe9e5ddeaeb1ddbee";
 $client = new Client($sid, $token);
 
 $call = $client->calls->create(
-    "+14155551212", "+14158675309",
+    "+441491352064", "+441491613469",
     array("url" => "http://demo.twilio.com/docs/voice.xml")
 );
 
