@@ -9,8 +9,8 @@ $token = "e2fa841ec2ea68ebe9e5ddeaeb1ddbee";
 $client = new Client($sid, $token);
 
 $call = $client->calls->create(
-    "+441491352064", "+441491613469",
-    array("url" => "http://demo.twilio.com/docs/voice.xml")
+    "+441491613469","+441491352064",
+    array("url" => "http://www.wallingfordhc.org.uk/twilio/test.xml")
 );
 
 echo $call->sid;
