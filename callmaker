@@ -5,7 +5,7 @@ use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/user/account
 $sid = "AC48cedd55d36cd749659ba641557c3414";
-$token = "e2fa841ec2ea68ebe9e5ddeaeb1ddbee";
+$token = "exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 $client = new Client($sid, $token);
 
 $call = $client->calls->create(
